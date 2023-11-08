@@ -48,10 +48,10 @@ span, div em {
 
 /* Задание 7*/
 a::before {   
-    content: url('youtube.png');
+    content: url('img/youtube.png');
 }
 a::after {   
-    content: url('catcatcatcat.png');
+    content: url('img/catcatcatcat.png');
 }
 #first-line::first-line {
     color: orange;
