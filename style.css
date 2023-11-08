@@ -1,0 +1,90 @@
+/*.box p {
+    color: red;	
+}
+
+div > p {
+        background-color: green;
+}
+div ~ p {
+    background-color: blue;
+}
+div + p {
+    background-color: lightblue;
+}
+*/
+
+/* Задание 1 и 2*/
+a.choto:link {
+	color: purple;
+}
+a.choto:visited {
+	color: red;
+}
+a.choto:hover {
+	color: pink;
+}
+a.choto:active {
+	color: green;
+	font-weight: bold;
+}
+
+/* Задание 3*/
+p:first-child {
+	color: red;
+}
+p i:first-child {
+	background-color: green;
+}
+p:first-child i {
+	background-color: blue;
+}
+
+/* Задание 4*/
+ul li:first-child {
+	color: red;
+}
+
+/* Задание 5*/
+ul li:last-child {
+	color: green;
+	font-family: comic sans ms;
+}
+
+/* Задание 6*/
+span, div em {
+  padding: 5px;
+  border: 1px solid green;
+  display: inline-block;
+  margin-bottom: 3px;
+}
+.first span:nth-child(2n + 1), .second span:nth-child(2n + 1) {
+  background-color: lime;
+}
+
+/* Задание 7*/
+a::before {   
+    content: url('youtube.png');
+}
+a::after {   
+    content: url('catcatcatcat.png');
+}
+#first-line::first-line {
+    color: orange;
+}
+
+/* Домашнее задание*/
+.container h1 {
+	color: blue;
+}
+.container h2 {
+	background-color: blue;
+	color: white;
+}
+.container {
+	font-size: 200%;
+}
+/*
+.xo4y_piccy p:first-child {
+	color: blue;
+}
+*/
