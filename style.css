@@ -1,18 +1,3 @@
-/*.box p {
-    color: red;	
-}
-
-div > p {
-        background-color: green;
-}
-div ~ p {
-    background-color: blue;
-}
-div + p {
-    background-color: lightblue;
-}
-*/
-
 /* Задание 1 и 2*/
 a.choto:link {
 	color: purple;
@@ -83,8 +68,3 @@ a::after {
 .container {
 	font-size: 200%;
 }
-/*
-.xo4y_piccy p:first-child {
-	color: blue;
-}
-*/
